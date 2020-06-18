@@ -113,10 +113,12 @@ nav {
   padding-left: 20px;
 }
 
+
 input::placeholder {
-  color: #0dd83c;
+  color:#0dd83c ;
   /* padding: 20px; */
   font-weight: 500;
+
 }
 
 .fa-search {
@@ -167,17 +169,18 @@ input::placeholder {
   outline: none;
   border-radius: 5px;
   text-align: center;
+  
 }
 
 .basket:active {
   background-color: #22ff55;
-  transition: all 0.1s ease;
-}
+  transition:all 0.1s ease;
+ } 
 
-.fa-cart-plus:active {
+ .fa-cart-plus:active {
   background-color: #22ff55;
-  transition: all 0.1s ease;
-}
+  transition:all 0.1s ease;
+ }
 
 .glider {
   overflow: hidden;
@@ -250,7 +253,7 @@ input::placeholder {
 /* cards on Slider */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  transition:all  0.3s ease;
   margin: 30px !important;
   background-color: #727e8a;
   border-radius: 10px;
@@ -274,9 +277,17 @@ input::placeholder {
   font-weight: 400;
 }
 
+
+
+
 /* // cards on Slider */
 
 /* slider styling */
+
+
+
+
+
 
 /* ------------------------Footer--------------------- */
 
@@ -300,6 +311,11 @@ footer > .firstBar > .container-fluid > .row > .col > p {
 .firstBarbigertxt {
   font-weight: var(--Bold);
 }
+
+
+
+
+
 
 /* thirdBar */
 
@@ -354,24 +370,29 @@ footer > .firstBar > .container-fluid > .row > .col > p {
   font-size: 2.5rem;
 }
 
+
 .socialMediaIcons:hover {
   transform: scale(1.3);
-  transition: all 0.7s ease;
+  transition:all  0.7s ease ;
 }
 
 /* -------------------------------  MEDIA Query  ------------------------------------*/
 
 @media only screen and (max-width: 270px) {
-  .basket {
-    padding: none !important;
-    margin: none !important;
-    background: none;
-  }
 
-  .fa-cart-plus {
-    background: none;
-  }
+
+  .basket {
+      padding: none!important;
+      margin: none!important;
+      background: none;
+    }
+
+    .fa-cart-plus {
+      background: none;
+    }
+
 }
+
 
 @media only screen and (max-width: 300px) {
   .sidenav {
@@ -387,6 +408,7 @@ footer > .firstBar > .container-fluid > .row > .col > p {
     padding: 0 5px 0 5px;
   }
 }
+
 
 @media only screen and (max-width: 590px) {
   .glider-next,
